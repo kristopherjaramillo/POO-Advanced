@@ -4,7 +4,12 @@ public class StudentNotFoundException
     extends Exception
 {
 
-    public StudentNotFoundException( )
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public StudentNotFoundException( )
     {
         super( "Student not found!");
     }
